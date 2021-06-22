@@ -212,6 +212,7 @@ video{
   
   .projects{
 	position: relative;
+	margin: auto;
   }
   
   .hover-shadow1:hover {
@@ -404,7 +405,7 @@ video{
 @media screen and (max-width: 991px) {
 	.tm-img-container {
 		max-width: 490px;
-		width: 90%;
+		width: 100%;
 	}
 	.tm-slider-img {
 		padding-left: 0px;
@@ -417,8 +418,8 @@ video{
 	}
 
 	video{
-		width: 209px;
-		height: 112.2px;
+		width: 292.6px;
+		height: 157.08px;
 	}
 
 	.tm-address-box { padding-left: 10px; }
@@ -461,7 +462,7 @@ video{
 
 	.tm-img-container {
 		max-width: 205px;
-		width: 90%;
+		width: 100%;
 	}
 
 	.tm-slider-img {
@@ -469,7 +470,7 @@ video{
 		padding-right: 0px;
 		display: block;
 		width: 100px;
-		height: 100px;
+		height: 150px;
 		border-radius: 5px 5px 5px 5px;
 		cursor: pointer;
 	}
@@ -485,7 +486,7 @@ video{
 		opacity:0;
 		color: white;
 		font-size: 16px;
-		padding: 0px;
+		padding: 5px;
 		text-align: center;
 		border-radius: 0px 0px 5px 5px;
 		}
@@ -510,7 +511,6 @@ video{
 		width: 260px;
 		height: 250px;
 		border-radius: 100px 100px 100px 100px;
-		float: left;
 	  }
 	  
 	  .htmlprojectr{
@@ -519,6 +519,16 @@ video{
 		background: rgb(83,252,70);
 		background: radial-gradient(circle, rgba(83,252,70,1) 0%, rgba(83,252,70,0) 100%);
 		border-radius: 100px 100px 100px 100px;
-		float: right;
 	  }
+
+	  .tm-bg-white-transparent-bottom1 {
+		margin: 5px;
+		padding: 20px;
+		max-width: 305px;
+		max-height: 300px;
+		width: 100%;
+		margin: 20px;
+		color: lawngreen;
+		text-align: center;
+	}
 }
